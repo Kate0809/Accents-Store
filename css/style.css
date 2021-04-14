@@ -261,12 +261,12 @@ body {
   .header__nav-list {
     display: block;
     margin: 0 auto;
+    width: 90%;
   }
   .header__nav-list li {
     position: relative;
     display: block;
-    width: 70%;
-    margin: 0 auto 25px;
+    margin-bottom: 25px;
     text-align: center;
   }
 }
@@ -398,7 +398,7 @@ body {
     overflow: auto;
     transition: all 0.3s ease 0s;
     background-color: rgba(234, 229, 218, 0.9);
-    padding: 200px 10px 20px 50px;
+    padding-top: 180px;
     z-index: 1;
   }
 }
@@ -709,6 +709,11 @@ body {
   width: 45%;
   border: 1px solid transparent;
 }
+@media (max-width: 700px) {
+  .shopping-bags__img {
+    width: 50%;
+  }
+}
 .shopping-bags__info {
   width: 40%;
 }
@@ -784,6 +789,12 @@ body {
   display: block;
   margin: 0 auto 90px;
 }
+@media (max-width: 700px) {
+  .homedecor__banner-img {
+    width: 50%;
+    margin: 0 auto 50px;
+  }
+}
 .homedecor__text {
   margin-bottom: 25px;
 }
@@ -801,6 +812,11 @@ body {
 .homedecor__img {
   width: 25%;
 }
+@media (max-width: 700px) {
+  .homedecor__img {
+    width: 50%;
+  }
+}
 
 /*----MATERIAL---*/
 .material {
@@ -812,9 +828,21 @@ body {
   margin: 0 auto 40px;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .material__img {
+    width: 60%;
+  }
+}
 .material__colours {
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .material__colours {
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .material__colours-item {
   width: 20%;
