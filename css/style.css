@@ -646,7 +646,6 @@ body {
 }
 .slider__content {
   display: flex;
-  width: 2000px;
   position: relative;
   left: 0;
   transition: all ease 1s;
