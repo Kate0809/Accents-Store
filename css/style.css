@@ -654,6 +654,11 @@ body {
   font-size: 36px;
   color: #000;
 }
+@media (max-width: 320px) {
+  .slider__img {
+    height: 208px;
+  }
+}
 
 .card__info-item {
   display: flex;
