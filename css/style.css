@@ -618,6 +618,7 @@ body {
 @media (max-width: 700px) {
   .bags__slider {
     width: 98%;
+    margin: 0 auto;
   }
 }
 .bags__info {
@@ -703,15 +704,16 @@ body {
 @media (max-width: 700px) {
   .shopping-bags__images {
     width: 97%;
+    justify-content: center;
   }
 }
 .shopping-bags__img {
   width: 45%;
-  border: 1px solid transparent;
 }
 @media (max-width: 700px) {
   .shopping-bags__img {
     width: 50%;
+    margin: 0 auto;
   }
 }
 .shopping-bags__info {
@@ -808,6 +810,7 @@ body {
 .homedecor__images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .homedecor__img {
   width: 25%;
@@ -815,6 +818,7 @@ body {
 @media (max-width: 700px) {
   .homedecor__img {
     width: 50%;
+    margin: 0 auto;
   }
 }
 
