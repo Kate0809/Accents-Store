@@ -667,9 +667,6 @@ body {
   max-width: 60%;
   margin: 0 auto;
   overflow: hidden;
-  /*-----HOMEDECOR----*/
-  /*----MATERIAL---*/
-  /*---SELLING----*/
 }
 .slider__content {
   width: 2550px;
@@ -680,7 +677,7 @@ body {
 }
 @media (max-width: 320px) {
   .slider__content {
-    height: 208px;
+    height: 205px;
   }
 }
 .slider__prev, .slider__next {
@@ -769,190 +766,200 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-.slider .revers-content {
+
+.revers-content {
   flex-direction: row-reverse;
 }
 @media (max-width: 700px) {
-  .slider .revers-content {
+  .revers-content {
     flex-direction: column-reverse;
   }
 }
-.slider .about-homedecor {
+
+/*-----HOMEDECOR----*/
+.about-homedecor {
   background: url(../img/bg/bg2.png) center/cover no-repeat;
 }
-.slider .about-homedecor__info {
+.about-homedecor__info {
   width: 50%;
 }
 @media (max-width: 700px) {
-  .slider .about-homedecor__info {
+  .about-homedecor__info {
     width: 97%;
   }
 }
-.slider .about-homedecor__text {
+.about-homedecor__text {
   margin-bottom: 20px;
 }
 @media (max-width: 700px) {
-  .slider .about-homedecor__text {
+  .about-homedecor__text {
     margin-bottom: 10px;
     text-align: center;
   }
 }
-.slider .about-homedecor__content {
+.about-homedecor__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 700px) {
-  .slider .about-homedecor__content {
+  .about-homedecor__content {
     flex-direction: column;
   }
 }
-.slider .about-homedecor__img {
+.about-homedecor__img {
   width: 40%;
 }
 @media (max-width: 700px) {
-  .slider .about-homedecor__img {
+  .about-homedecor__img {
     width: 80%;
   }
 }
-.slider .homedecor {
+
+.homedecor {
   background: url(../img/bg/sh2.png) center/cover no-repeat #f0eeee;
 }
-.slider .homedecor__info {
+.homedecor__info {
   margin-bottom: 30px;
   text-align: center;
 }
-.slider .homedecor__banner-img {
+.homedecor__banner-img {
   width: 35%;
   display: block;
   margin: 0 auto 90px;
 }
 @media (max-width: 700px) {
-  .slider .homedecor__banner-img {
+  .homedecor__banner-img {
     width: 50%;
     margin: 0 auto 50px;
   }
 }
-.slider .homedecor__text {
+.homedecor__text {
   margin-bottom: 25px;
 }
-.slider .homedecor__content-item {
+.homedecor__content-item {
   margin-bottom: 60px;
 }
-.slider .homedecor__info .card {
+.homedecor__info .card {
   margin: 0 auto 50px;
   max-width: 320px;
 }
-.slider .homedecor__images {
+.homedecor__images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.slider .homedecor__img {
+.homedecor__img {
   width: 25%;
 }
 @media (max-width: 700px) {
-  .slider .homedecor__img {
+  .homedecor__img {
     width: 50%;
     margin: 0 auto;
   }
 }
 @media (max-width: 320px) {
-  .slider .homedecor__img {
+  .homedecor__img {
     height: 185px;
   }
 }
-.slider .material {
+
+/*----MATERIAL---*/
+.material {
   background: url(../img/bg/bg3.png) center/cover no-repeat;
 }
-.slider .material__img {
+.material__img {
   display: block;
   width: 38%;
   margin: 0 auto 40px;
   text-align: center;
 }
 @media (max-width: 700px) {
-  .slider .material__img {
+  .material__img {
     width: 60%;
   }
 }
-.slider .material__colours {
+.material__colours {
   display: flex;
   flex-wrap: wrap;
 }
 @media (max-width: 700px) {
-  .slider .material__colours {
+  .material__colours {
     width: 95%;
     align-items: center;
     justify-content: center;
   }
 }
-.slider .material__colours-item {
+.material__colours-item {
   width: 20%;
   margin-bottom: 20px;
   background-color: #fff;
   border-bottom: 1px solid #5c7470;
 }
 @media (max-width: 700px) {
-  .slider .material__colours-item {
+  .material__colours-item {
     width: 30%;
   }
 }
-.slider .material__colours-img {
+.material__colours-img {
   width: 100%;
 }
-.slider .color-img {
+
+.color-img {
   width: 100%;
   margin-bottom: 10px;
 }
-.slider .color-title {
+
+.color-title {
   margin-bottom: 5px;
   text-align: center;
 }
 @media (max-width: 700px) {
-  .slider .color-title {
+  .color-title {
     font-size: 14px;
   }
 }
-.slider .selling {
+
+/*---SELLING----*/
+.selling {
   background: url(../img/bg/sh2.png) center/cover no-repeat #f0eeee;
 }
-.slider .selling__content {
+.selling__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 700px) {
-  .slider .selling__content {
+  .selling__content {
     flex-direction: column;
   }
 }
-.slider .selling__info {
+.selling__info {
   width: 50%;
 }
 @media (max-width: 700px) {
-  .slider .selling__info {
+  .selling__info {
     width: 95%;
     margin-bottom: 15px;
     text-align: center;
   }
 }
-.slider .selling__text {
+.selling__text {
   margin-bottom: 10px;
 }
-.slider .selling__link {
+.selling__link {
   font-weight: 600;
   color: #000;
 }
-.slider .selling__link:hover {
+.selling__link:hover {
   border-bottom: 1px solid #000;
   transition: all 0.5s;
 }
-.slider .selling__img {
+.selling__img {
   width: 30%;
 }
 @media (max-width: 700px) {
-  .slider .selling__img {
+  .selling__img {
     width: 50%;
   }
 }
