@@ -203,6 +203,32 @@ body {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(130deg, #2d2722 50%, #6cbfce 50%);
+  background-size: 300%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.arrow-up:hover {
+  background-position: 100% 0;
+}
+
 .header {
   margin-bottom: 90px;
 }
@@ -645,6 +671,7 @@ body {
   overflow: hidden;
 }
 .slider__content {
+  width: 2550px;
   display: flex;
   position: relative;
   left: 0;
@@ -718,6 +745,11 @@ body {
   .shopping-bags__img {
     width: 50%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .shopping-bags__img {
+    height: 185px;
   }
 }
 .shopping-bags__info {
