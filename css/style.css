@@ -681,7 +681,7 @@ body {
 }
 @media (max-width: 320px) {
   .slider__img {
-    height: 208px;
+    height: 185px;
   }
 }
 
