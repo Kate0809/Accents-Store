@@ -212,10 +212,10 @@ body {
   width: 50px;
   height: 50px;
   background-color: #fff;
-  color: #333;
+  color: #000;
   cursor: pointer;
   outline: none;
-  border: 3px solid #333;
+  border: 3px solid #000;
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -223,7 +223,7 @@ body {
 }
 
 #back-to-top-btn:hover, #back-to-top-btn:focus {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
 
@@ -853,6 +853,11 @@ body {
   .homedecor__img {
     width: 50%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .homedecor__img {
+    height: 185px;
   }
 }
 
