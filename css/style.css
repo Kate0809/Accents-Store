@@ -421,7 +421,7 @@ body {
     height: 100%;
     overflow: auto;
     transition: all 0.3s ease 0s;
-    background-color: rgba(234, 229, 218, 0.9);
+    background-color: rgba(240, 238, 238, 0.9);
     padding-top: 180px;
     z-index: 1;
   }
@@ -704,7 +704,7 @@ body {
 .card__info-title {
   margin-right: 15px;
 }
-@media (max-width: 700px) {
+@media (max-width: 950px) {
   .card__info-title {
     font-size: 14px;
     margin-right: 10px;
