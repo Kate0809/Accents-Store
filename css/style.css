@@ -435,6 +435,16 @@ body {
   padding: 25px 0 50px;
   background: url(../img/bg/bg2.png) center/cover no-repeat;
 }
+@media (min-width: 1600px) {
+  .banner {
+    padding: 25px 0 100px;
+  }
+}
+@media (min-width: 1700px) {
+  .banner {
+    padding: 25px 0 130px;
+  }
+}
 .banner__content {
   display: flex;
   justify-content: space-between;
@@ -447,9 +457,6 @@ body {
     flex-direction: column-reverse;
     text-align: center;
   }
-}
-.banner__info {
-  padding-left: 35px;
 }
 @media (max-width: 950px) {
   .banner__info {
