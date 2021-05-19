@@ -445,6 +445,11 @@ body {
     padding: 25px 0 130px;
   }
 }
+@media (min-width: 1800px) {
+  .banner {
+    padding: 25px 0 170px;
+  }
+}
 .banner__content {
   display: flex;
   justify-content: space-between;
